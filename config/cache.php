@@ -6,12 +6,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cache Store
+    | デフォルトキャッシュストア
     |--------------------------------------------------------------------------
     |
-    | This option controls the default cache store that will be used by the
-    | framework. This connection is utilized if another isn't explicitly
-    | specified when running a cache operation inside the application.
+    | このオプションは、フレームワークが使用するデフォルトのキャッシュストアを
+    | 制御します。この接続は、アプリケーション内でキャッシュ操作を実行する際に
+    | 別の接続が明示的に指定されていない場合に利用されます。
     |
     */
 
@@ -19,15 +19,15 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Stores
+    | キャッシュストア
     |--------------------------------------------------------------------------
     |
-    | Here you may define all of the cache "stores" for your application as
-    | well as their drivers. You may even define multiple stores for the
-    | same cache driver to group types of items stored in your caches.
+    | ここでは、アプリケーションのすべてのキャッシュ「ストア」とそのドライバを
+    | 定義できます。同じキャッシュドライバに対して複数のストアを定義し、
+    | キャッシュに格納されるアイテムの種類をグループ化することもできます。
     |
-    | Supported drivers: "array", "database", "file", "memcached",
-    |                    "redis", "dynamodb", "octane", "null"
+    | サポートされているドライバ: "array", "database", "file", "memcached",
+    |                         "redis", "dynamodb", "octane", "null"
     |
     */
 
@@ -93,12 +93,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Key Prefix
+    | キャッシュキーのプレフィックス
     |--------------------------------------------------------------------------
     |
-    | When utilizing the APC, database, memcached, Redis, and DynamoDB cache
-    | stores, there might be other applications using the same cache. For
-    | that reason, you may prefix every cache key to avoid collisions.
+    | APC、データベース、memcached、Redis、およびDynamoDBキャッシュストアを
+    | 利用する場合、同じキャッシュを使用する他のアプリケーションが存在する
+    | 可能性があります。そのため、衝突を避けるために、すべてのキャッシュキーに
+    | プレフィックスを付けることができます。
     |
     */
 

@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Filesystem Disk
+    | デフォルトファイルシステムディスク
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default filesystem disk that should be used
-    | by the framework. The "local" disk, as well as a variety of cloud
-    | based disks are available to your application for file storage.
+    | ここで、フレームワークが使用するデフォルトのファイルシステムディスクを
+    | 指定できます。"local"ディスクおよびさまざまなクラウドベースのディスクが
+    | アプリケーションで利用可能です。
     |
     */
 
@@ -17,14 +17,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Filesystem Disks
+    | ファイルシステムディスク
     |--------------------------------------------------------------------------
     |
-    | Below you may configure as many filesystem disks as necessary, and you
-    | may even configure multiple disks for the same driver. Examples for
-    | most supported storage drivers are configured here for reference.
+    | ここでは、必要に応じて多くのファイルシステムディスクを設定できます。
+    | 同じドライバに対して複数のディスクを設定することも可能です。
+    | ここには、ほとんどのサポートされているストレージドライバの例が設定されています。
     |
-    | Supported Drivers: "local", "ftp", "sftp", "s3"
+    | サポートされているドライバ: "local", "ftp", "sftp", "s3"
     |
     */
 
@@ -60,12 +60,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Symbolic Links
+    | シンボリックリンク
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the symbolic links that will be created when the
-    | `storage:link` Artisan command is executed. The array keys should be
-    | the locations of the links and the values should be their targets.
+    | ここでは、`storage:link` Artisanコマンドが実行されたときに作成される
+    | シンボリックリンクを設定できます。配列のキーはリンクの場所であり、
+    | 値はそのターゲットである必要があります。
     |
     */
 

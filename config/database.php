@@ -6,13 +6,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Database Connection Name
+    | デフォルトデータベースコネクション名
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which of the database connections below you wish
-    | to use as your default connection for database operations. This is
-    | the connection which will be utilized unless another connection
-    | is explicitly specified when you execute a query / statement.
+    | ここで、データベース操作のデフォルトコネクションとして使用するデータベース
+    | コネクションを指定できます。このコネクションは、クエリやステートメントを実行する際に
+    | 別のコネクションが明示的に指定されていない場合に利用されます。
     |
     */
 
@@ -20,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Database Connections
+    | データベースコネクション
     |--------------------------------------------------------------------------
     |
-    | Below are all of the database connections defined for your application.
-    | An example configuration is provided for each database system which
-    | is supported by Laravel. You're free to add / remove connections.
+    | 以下は、アプリケーションのために定義されたすべてのデータベースコネクションです。
+    | Laravelがサポートする各データベースシステムの例の構成が提供されています。
+    | コネクションを追加/削除することが自由にできます。
     |
     */
 
@@ -113,12 +112,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Migration Repository Table
+    | マイグレーションリポジトリテーブル
     |--------------------------------------------------------------------------
     |
-    | This table keeps track of all the migrations that have already run for
-    | your application. Using this information, we can determine which of
-    | the migrations on disk haven't actually been run on the database.
+    | このテーブルは、アプリケーションのためにすでに実行されたすべての
+    | マイグレーションを記録します。この情報を使用して、ディスク上のどの
+    | マイグレーションが実際にデータベースで実行されていないかを
+    | 判断できます。
     |
     */
 
@@ -129,12 +129,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Redis Databases
+    | Redisデータベース
     |--------------------------------------------------------------------------
     |
-    | Redis is an open source, fast, and advanced key-value store that also
-    | provides a richer body of commands than a typical key-value system
-    | such as Memcached. You may define your connection settings here.
+    | Redisはオープンソースの高速で高度なキー・バリューストアであり、
+    | Memcachedのような一般的なキー・バリューシステムよりも豊富なコマンドを
+    | 提供します。ここでコネクション設定を定義できます。
     |
     */
 

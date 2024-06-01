@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Queue Connection Name
+    | デフォルトキュー接続名
     |--------------------------------------------------------------------------
     |
-    | Laravel's queue supports a variety of backends via a single, unified
-    | API, giving you convenient access to each backend using identical
-    | syntax for each. The default queue connection is defined below.
+    | Laravelのキューは単一の統一されたAPIを介して、さまざまなバックエンドを
+    | サポートしており、各バックエンドに同一の構文を使用して便利にアクセスできます。
+    | デフォルトのキュー接続は以下に定義されています。
     |
     */
 
@@ -17,14 +17,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Queue Connections
+    | キュー接続
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the connection options for every queue backend
-    | used by your application. An example configuration is provided for
-    | each backend supported by Laravel. You're also free to add more.
+    | ここでは、アプリケーションで使用されるすべてのキューバックエンドの
+    | 接続オプションを構成できます。Laravelがサポートする各バックエンドの
+    | 例の構成が提供されています。必要に応じてさらに追加することも自由です。
     |
-    | Drivers: "sync", "database", "beanstalkd", "sqs", "redis", "null"
+    | ドライバ: "sync", "database", "beanstalkd", "sqs", "redis", "null"
     |
     */
 
@@ -76,12 +76,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Job Batching
+    | ジョブのバッチ処理
     |--------------------------------------------------------------------------
     |
-    | The following options configure the database and table that store job
-    | batching information. These options can be updated to any database
-    | connection and table which has been defined by your application.
+    | 以下のオプションは、ジョブのバッチ処理情報を格納するデータベースと
+    | テーブルを構成します。これらのオプションは、アプリケーションで定義された
+    | 任意のデータベース接続とテーブルに更新できます。
     |
     */
 
@@ -92,14 +92,15 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Failed Queue Jobs
+    | 失敗したキュージョブ
     |--------------------------------------------------------------------------
     |
-    | These options configure the behavior of failed queue job logging so you
-    | can control how and where failed jobs are stored. Laravel ships with
-    | support for storing failed jobs in a simple file or in a database.
+    | これらのオプションは、失敗したキュージョブのログ記録の動作を構成し、
+    | 失敗したジョブがどのように、どこに保存されるかを制御できます。
+    | Laravelには、失敗したジョブをシンプルなファイルまたはデータベースに
+    | 保存するためのサポートが付属しています。
     |
-    | Supported drivers: "database-uuids", "dynamodb", "file", "null"
+    | サポートされているドライバ: "database-uuids", "dynamodb", "file", "null"
     |
     */
 

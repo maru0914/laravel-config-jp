@@ -4,13 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Mailer
+    | デフォルトメーラー
     |--------------------------------------------------------------------------
     |
-    | This option controls the default mailer that is used to send all email
-    | messages unless another mailer is explicitly specified when sending
-    | the message. All additional mailers can be configured within the
-    | "mailers" array. Examples of each type of mailer are provided.
+    | このオプションは、すべてのメールメッセージを送信するために使用される
+    | デフォルトのメーラーを制御します。メッセージを送信する際に他のメーラーが
+    | 明示的に指定されていない限り、このメーラーが使用されます。
+    | 追加のメーラーはすべて「mailers」配列内で設定できます。
+    | 各タイプのメーラーの例が提供されています。
     |
     */
 
@@ -18,20 +19,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Mailer Configurations
+    | メーラー設定
     |--------------------------------------------------------------------------
     |
-    | Here you may configure all of the mailers used by your application plus
-    | their respective settings. Several examples have been configured for
-    | you and you are free to add your own as your application requires.
+    | ここでは、アプリケーションで使用されるすべてのメーラーとそれぞれの
+    | 設定を構成できます。いくつかの例が設定されており、必要に応じて独自のメーラーを
+    | 追加できます。
     |
-    | Laravel supports a variety of mail "transport" drivers that can be used
-    | when delivering an email. You may specify which one you're using for
-    | your mailers below. You may also add additional mailers if needed.
+    | Laravelは、メールを配信する際に使用できるさまざまなメール「トランスポート」
+    | ドライバをサポートしています。以下で使用するトランスポートを指定できます。
+    | 必要に応じて追加のメーラーを追加することもできます。
     |
-    | Supported: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
-    |            "postmark", "resend", "log", "array",
-    |            "failover", "roundrobin"
+    | サポートされているドライバ: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
+    |                         "postmark", "resend", "log", "array",
+    |                         "failover", "roundrobin"
     |
     */
 
@@ -99,12 +100,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Global "From" Address
+    | グローバル「From」アドレス
     |--------------------------------------------------------------------------
     |
-    | You may wish for all emails sent by your application to be sent from
-    | the same address. Here you may specify a name and address that is
-    | used globally for all emails that are sent by your application.
+    | アプリケーションから送信されるすべてのメールが同じアドレスから送信されるようにする
+    | ことができます。ここでは、アプリケーションから送信されるすべてのメールに
+    | グローバルに使用される名前とアドレスを指定できます。
     |
     */
 

@@ -9,12 +9,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Log Channel
+    | デフォルトログチャンネル
     |--------------------------------------------------------------------------
     |
-    | This option defines the default log channel that is utilized to write
-    | messages to your logs. The value provided here should match one of
-    | the channels present in the list of "channels" configured below.
+    | このオプションは、ログにメッセージを書き込むために利用される
+    | デフォルトのログチャンネルを定義します。ここで指定された値は、
+    | 下記に設定された「channels」のリストのいずれかと一致する必要があります。
     |
     */
 
@@ -22,12 +22,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Deprecations Log Channel
+    | 非推奨機能のログチャンネル
     |--------------------------------------------------------------------------
     |
-    | This option controls the log channel that should be used to log warnings
-    | regarding deprecated PHP and library features. This allows you to get
-    | your application ready for upcoming major versions of dependencies.
+    | このオプションは、非推奨のPHPやライブラリの機能に関する警告を
+    | ログに記録するためのログチャンネルを制御します。これにより、
+    | アプリケーションを依存関係の次期メジャーバージョンに備えることができます。
     |
     */
 
@@ -38,15 +38,15 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Log Channels
+    | ログチャンネル
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the log channels for your application. Laravel
-    | utilizes the Monolog PHP logging library, which includes a variety
-    | of powerful log handlers and formatters that you're free to use.
+    | ここでは、アプリケーションのログチャンネルを設定できます。
+    | Laravelは、さまざまな強力なログハンドラやフォーマッタを含む
+    | Monolog PHPロギングライブラリを利用しています。
     |
-    | Available Drivers: "single", "daily", "slack", "syslog",
-    |                    "errorlog", "monolog", "custom", "stack"
+    | 利用可能なドライバ: "single", "daily", "slack", "syslog",
+    |                  "errorlog", "monolog", "custom", "stack"
     |
     */
 

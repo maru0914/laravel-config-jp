@@ -4,12 +4,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Name
+    | アプリケーション名
     |--------------------------------------------------------------------------
     |
-    | This value is the name of your application, which will be used when the
-    | framework needs to place the application's name in a notification or
-    | other UI elements where an application name needs to be displayed.
+    | この値はアプリケーションの名前であり、フレームワークが通知や
+    | 他のUI要素にアプリケーション名を表示する必要がある場合に使用されます。
     |
     */
 
@@ -17,12 +16,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Environment
+    | アプリケーション環境
     |--------------------------------------------------------------------------
     |
-    | This value determines the "environment" your application is currently
-    | running in. This may determine how you prefer to configure various
-    | services the application utilizes. Set this in your ".env" file.
+    | この値は、アプリケーションが現在実行されている「環境」を決定します。
+    | これにより、アプリケーションが利用するさまざまなサービスの設定方法を
+    | 決定することがあります。この値は ".env" ファイルに設定します。
     |
     */
 
@@ -30,12 +29,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Debug Mode
+    | アプリケーションデバッグモード
     |--------------------------------------------------------------------------
     |
-    | When your application is in debug mode, detailed error messages with
-    | stack traces will be shown on every error that occurs within your
-    | application. If disabled, a simple generic error page is shown.
+    | アプリケーションがデバッグモードの場合、エラーが発生すると、
+    | 詳細なエラーメッセージとスタックトレースが表示されます。
+    | 無効にすると、シンプルで汎用的なエラーページが表示されます。
     |
     */
 
@@ -43,12 +42,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application URL
+    | アプリケーションURL
     |--------------------------------------------------------------------------
     |
-    | This URL is used by the console to properly generate URLs when using
-    | the Artisan command line tool. You should set this to the root of
-    | the application so that it's available within Artisan commands.
+    | このURLは、Artisanコマンドラインツールを使用する際にURLを
+    | 正しく生成するためにコンソールで使用されます。アプリケーションの
+    | ルートに設定し、Artisanコマンド内で使用できるようにします。
     |
     */
 
@@ -56,12 +55,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Timezone
+    | アプリケーションタイムゾーン
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default timezone for your application, which
-    | will be used by the PHP date and date-time functions. The timezone
-    | is set to "UTC" by default as it is suitable for most use cases.
+    | ここではアプリケーションのデフォルトタイムゾーンを指定します。
+    | このタイムゾーンはPHPのdateおよびdate-time関数群によって使用されます。
+    | デフォルトでは「UTC」に設定されていますが、これは多くのケースで適しているためです。
     |
     */
 
@@ -69,12 +68,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Locale Configuration
+    | アプリケーションロケール設定
     |--------------------------------------------------------------------------
     |
-    | The application locale determines the default locale that will be used
-    | by Laravel's translation / localization methods. This option can be
-    | set to any locale for which you plan to have translation strings.
+    | アプリケーションロケールは、Laravelの翻訳／ローカリゼーションメソッドが
+    | 使用するデフォルトロケールを決定します。このオプションは、
+    | 翻訳文字列を持つ予定の任意のロケールに設定できます。
     |
     */
 
@@ -86,12 +85,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Encryption Key
+    | 暗号化キー
     |--------------------------------------------------------------------------
     |
-    | This key is utilized by Laravel's encryption services and should be set
-    | to a random, 32 character string to ensure that all encrypted values
-    | are secure. You should do this prior to deploying the application.
+    | このキーはLaravelの暗号化サービスによって使用され、すべての暗号化された
+    | 値が安全であることを確実にするために、ランダムな32文字の文字列に設定する
+    | 必要があります。アプリケーションをデプロイする前にこの設定を行うべきです。
     |
     */
 
@@ -107,14 +106,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Maintenance Mode Driver
+    | メンテナンスモードドライバー
     |--------------------------------------------------------------------------
     |
-    | These configuration options determine the driver used to determine and
-    | manage Laravel's "maintenance mode" status. The "cache" driver will
-    | allow maintenance mode to be controlled across multiple machines.
+    | これらの設定オプションは、Laravelの「メンテナンスモード」ステータスを
+    | 決定および管理するために使用されるドライバーを決定します。
+    | 「cache」ドライバーを使用すると、複数のマシン間でメンテナンスモードを管理できます。
     |
-    | Supported drivers: "file", "cache"
+    | サポートされているドライバー: "file", "cache"
     |
     */
 
