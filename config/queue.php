@@ -24,7 +24,7 @@ return [
     | 接続オプションを構成できます。Laravelがサポートする各バックエンドの
     | 例の構成が提供されています。必要に応じてさらに追加することも自由です。
     |
-    | ドライバ: "sync", "database", "beanstalkd", "sqs", "redis", "null"
+    | ドライバー: "sync", "database", "beanstalkd", "sqs", "redis", "null"
     |
     */
 
@@ -100,7 +100,7 @@ return [
     | Laravelには、失敗したジョブをシンプルなファイルまたはデータベースに
     | 保存するためのサポートが付属しています。
     |
-    | サポートされているドライバ: "database-uuids", "dynamodb", "file", "null"
+    | サポートされているドライバー: "database-uuids", "dynamodb", "file", "null"
     |
     */
 

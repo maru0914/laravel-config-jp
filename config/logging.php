@@ -45,8 +45,8 @@ return [
     | Laravelは、さまざまな強力なログハンドラやフォーマッタを含む
     | Monolog PHPロギングライブラリを利用しています。
     |
-    | 利用可能なドライバ: "single", "daily", "slack", "syslog",
-    |                  "errorlog", "monolog", "custom", "stack"
+    | 利用可能なドライバー: "single", "daily", "slack", "syslog",
+    |                  　"errorlog", "monolog", "custom", "stack"
     |
     */
 

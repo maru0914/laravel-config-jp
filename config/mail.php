@@ -27,12 +27,12 @@ return [
     | 追加できます。
     |
     | Laravelは、メールを配信する際に使用できるさまざまなメール「トランスポート」
-    | ドライバをサポートしています。以下で使用するトランスポートを指定できます。
+    | ドライバーをサポートしています。以下で使用するトランスポートを指定できます。
     | 必要に応じて追加のメーラーを追加することもできます。
     |
-    | サポートされているドライバ: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
-    |                         "postmark", "resend", "log", "array",
-    |                         "failover", "roundrobin"
+    | サポートされているドライバー: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
+    |                          "postmark", "resend", "log", "array",
+    |                          "failover", "roundrobin"
     |
     */
 
